@@ -7,79 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15B54FA721417C7000A99A88 /* GMSPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F7F21417C7000A99A88 /* GMSPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FA821417C7000A99A88 /* GMSIndoorBuilding.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8021417C7000A99A88 /* GMSIndoorBuilding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FA921417C7000A99A88 /* GMSMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8121417C7000A99A88 /* GMSMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FAA21417C7000A99A88 /* GMSMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8221417C7000A99A88 /* GMSMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FAB21417C7000A99A88 /* GMSServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8321417C7000A99A88 /* GMSServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FAC21417C7000A99A88 /* GMSIndoorDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8421417C7000A99A88 /* GMSIndoorDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FAD21417C7000A99A88 /* GMSMarkerLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8521417C7000A99A88 /* GMSMarkerLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FAE21417C7000A99A88 /* GMSOverlayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8621417C7000A99A88 /* GMSOverlayLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FAF21417C7000A99A88 /* GMSCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8721417C7000A99A88 /* GMSCameraUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB021417C7000A99A88 /* GMSMapLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8821417C7000A99A88 /* GMSMapLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB121417C7000A99A88 /* GMSPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8921417C7000A99A88 /* GMSPolyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB221417C7000A99A88 /* GMSMapView+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8A21417C7000A99A88 /* GMSMapView+Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB321417C7000A99A88 /* GMSOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8B21417C7000A99A88 /* GMSOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB421417C7000A99A88 /* GMSPanoramaService.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8C21417C7000A99A88 /* GMSPanoramaService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB521417C7000A99A88 /* GMSMapStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8D21417C7000A99A88 /* GMSMapStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB621417C7000A99A88 /* GMSMutablePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8E21417C7000A99A88 /* GMSMutablePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB721417C7000A99A88 /* GMSPanorama.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F8F21417C7000A99A88 /* GMSPanorama.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB821417C7000A99A88 /* GMSIndoorLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9021417C7000A99A88 /* GMSIndoorLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FB921417C7000A99A88 /* GMSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9121417C7000A99A88 /* GMSCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FBA21417C7000A99A88 /* GMSCoordinateBounds+GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9221417C7000A99A88 /* GMSCoordinateBounds+GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FBB21417C7000A99A88 /* GMSPanoramaSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9321417C7000A99A88 /* GMSPanoramaSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FBC21417C7000A99A88 /* GMSTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9421417C7000A99A88 /* GMSTileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FBD21417C7000A99A88 /* GMSPanoramaCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9521417C7000A99A88 /* GMSPanoramaCameraUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FBE21417C7000A99A88 /* GMSPanoramaCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9621417C7000A99A88 /* GMSPanoramaCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FBF21417C7000A99A88 /* GMSCameraPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9721417C7000A99A88 /* GMSCameraPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC021417C7000A99A88 /* GMSAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9821417C7000A99A88 /* GMSAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC121417C7000A99A88 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9921417C7000A99A88 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC221417C7000A99A88 /* GMSOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9A21417C7000A99A88 /* GMSOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC321417C7000A99A88 /* GMSSyncTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9B21417C7000A99A88 /* GMSSyncTileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC421417C7000A99A88 /* GMSGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9C21417C7000A99A88 /* GMSGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC521417C7000A99A88 /* GMSPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9D21417C7000A99A88 /* GMSPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC621417C7000A99A88 /* GMSURLTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9E21417C7000A99A88 /* GMSURLTileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC721417C7000A99A88 /* GMSGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54F9F21417C7000A99A88 /* GMSGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC821417C7000A99A88 /* GMSPanoramaLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FA021417C7000A99A88 /* GMSPanoramaLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FC921417C7000A99A88 /* GMSGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FA121417C7000A99A88 /* GMSGroundOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FCA21417C7000A99A88 /* GMSCALayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FA221417C7000A99A88 /* GMSCALayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FCB21417C7000A99A88 /* GMSPanoramaLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FA321417C7000A99A88 /* GMSPanoramaLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FCC21417C7000A99A88 /* GMSPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FA421417C7000A99A88 /* GMSPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FCD21417C7000A99A88 /* GMSProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FA521417C7000A99A88 /* GMSProjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FCE21417C7000A99A88 /* GMSUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FA621417C7000A99A88 /* GMSUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15B54FD321417C8F00A99A88 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15B54FD221417C8F00A99A88 /* GoogleMaps.bundle */; };
-		15B54FDD21417D3D00A99A88 /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FD621417D3D00A99A88 /* GMSDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FDE21417D3D00A99A88 /* GoogleMapsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FD721417D3D00A99A88 /* GoogleMapsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FDF21417D3D00A99A88 /* GMSCompatabilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FD821417D3D00A99A88 /* GMSCompatabilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B54FE021417D3D00A99A88 /* GMSCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FD921417D3D00A99A88 /* GMSCoordinateBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15B54FE221417D5E00A99A88 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B54FE121417D5E00A99A88 /* GoogleMapsBase */; };
 		15B54FEA214184F100A99A88 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FE8214184F000A99A88 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D32246A8DC100BDFCBD /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D07246A8DBF00BDFCBD /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D33246A8DC100BDFCBD /* GMSCameraPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D08246A8DBF00BDFCBD /* GMSCameraPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D34246A8DC100BDFCBD /* GMSMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D09246A8DBF00BDFCBD /* GMSMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D35246A8DC100BDFCBD /* GMSCALayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D0A246A8DBF00BDFCBD /* GMSCALayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D36246A8DC100BDFCBD /* GMSMarkerLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D0B246A8DBF00BDFCBD /* GMSMarkerLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D37246A8DC100BDFCBD /* GMSOverlayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D0C246A8DBF00BDFCBD /* GMSOverlayLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D38246A8DC100BDFCBD /* GMSPanoramaCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D0D246A8DBF00BDFCBD /* GMSPanoramaCameraUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D39246A8DC100BDFCBD /* GMSPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D0E246A8DBF00BDFCBD /* GMSPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D3A246A8DC100BDFCBD /* GMSPolygonLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D0F246A8DBF00BDFCBD /* GMSPolygonLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D3B246A8DC100BDFCBD /* GMSPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D10246A8DBF00BDFCBD /* GMSPolyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D3C246A8DC100BDFCBD /* GMSStyleSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D11246A8DBF00BDFCBD /* GMSStyleSpan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D3D246A8DC100BDFCBD /* GMSIndoorBuilding.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D12246A8DBF00BDFCBD /* GMSIndoorBuilding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D3E246A8DC100BDFCBD /* GMSAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D13246A8DBF00BDFCBD /* GMSAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D3F246A8DC100BDFCBD /* GMSSyncTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D14246A8DBF00BDFCBD /* GMSSyncTileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D40246A8DC100BDFCBD /* GMSUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D15246A8DBF00BDFCBD /* GMSUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D41246A8DC100BDFCBD /* GMSIndoorDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D16246A8DBF00BDFCBD /* GMSIndoorDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D42246A8DC100BDFCBD /* GMSPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D17246A8DBF00BDFCBD /* GMSPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D43246A8DC100BDFCBD /* GMSProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D18246A8DC000BDFCBD /* GMSProjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D44246A8DC100BDFCBD /* GMSCoordinateBounds+GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D19246A8DC000BDFCBD /* GMSCoordinateBounds+GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D45246A8DC100BDFCBD /* GMSCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D1A246A8DC000BDFCBD /* GMSCameraUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D46246A8DC100BDFCBD /* GMSURLTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D1B246A8DC000BDFCBD /* GMSURLTileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D47246A8DC100BDFCBD /* GMSPanoramaLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D1C246A8DC000BDFCBD /* GMSPanoramaLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D48246A8DC100BDFCBD /* GMSGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D1D246A8DC000BDFCBD /* GMSGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D49246A8DC100BDFCBD /* GMSStrokeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D1E246A8DC000BDFCBD /* GMSStrokeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D4A246A8DC100BDFCBD /* GMSGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D1F246A8DC000BDFCBD /* GMSGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D4B246A8DC100BDFCBD /* GMSPanoramaService.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D20246A8DC000BDFCBD /* GMSPanoramaService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D4C246A8DC100BDFCBD /* GMSServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D21246A8DC000BDFCBD /* GMSServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D4D246A8DC100BDFCBD /* GMSIndoorLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D22246A8DC000BDFCBD /* GMSIndoorLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D4E246A8DC100BDFCBD /* GMSMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D23246A8DC000BDFCBD /* GMSMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D4F246A8DC100BDFCBD /* GMSMapStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D24246A8DC000BDFCBD /* GMSMapStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D50246A8DC100BDFCBD /* GMSPanoramaCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D25246A8DC000BDFCBD /* GMSPanoramaCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D51246A8DC100BDFCBD /* GMSPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D26246A8DC000BDFCBD /* GMSPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D52246A8DC100BDFCBD /* GMSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D27246A8DC000BDFCBD /* GMSCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D53246A8DC100BDFCBD /* GMSPanoramaSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D28246A8DC000BDFCBD /* GMSPanoramaSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D54246A8DC100BDFCBD /* GMSGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D29246A8DC000BDFCBD /* GMSGroundOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D55246A8DC100BDFCBD /* GMSMutablePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D2A246A8DC000BDFCBD /* GMSMutablePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D56246A8DC100BDFCBD /* GMSOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D2B246A8DC000BDFCBD /* GMSOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D57246A8DC100BDFCBD /* GMSMapView+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D2C246A8DC100BDFCBD /* GMSMapView+Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D58246A8DC100BDFCBD /* GMSTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D2D246A8DC100BDFCBD /* GMSTileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D59246A8DC100BDFCBD /* GMSMapLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D2E246A8DC100BDFCBD /* GMSMapLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D5A246A8DC100BDFCBD /* GMSOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D2F246A8DC100BDFCBD /* GMSOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D5B246A8DC100BDFCBD /* GMSPanoramaLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D30246A8DC100BDFCBD /* GMSPanoramaLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D5C246A8DC100BDFCBD /* GMSPanorama.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D31246A8DC100BDFCBD /* GMSPanorama.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D61246A8DDA00BDFCBD /* GoogleMapsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D5D246A8DDA00BDFCBD /* GoogleMapsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D62246A8DDA00BDFCBD /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D5E246A8DDA00BDFCBD /* GMSDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D63246A8DDA00BDFCBD /* GMSCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D5F246A8DDA00BDFCBD /* GMSCoordinateBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D64246A8DDA00BDFCBD /* GMSCompatabilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D60246A8DDA00BDFCBD /* GMSCompatabilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D7C246A8E1F00BDFCBD /* GMSPlaceLikelihoodList.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D65246A8E1F00BDFCBD /* GMSPlaceLikelihoodList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D7D246A8E1F00BDFCBD /* GMSPlacePhotoMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D66246A8E1F00BDFCBD /* GMSPlacePhotoMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D7E246A8E1F00BDFCBD /* GMSPlacePhotoMetadataList.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D67246A8E1F00BDFCBD /* GMSPlacePhotoMetadataList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D7F246A8E1F00BDFCBD /* GMSPlacesClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D68246A8E1F00BDFCBD /* GMSPlacesClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D80246A8E1F00BDFCBD /* GMSPlacesErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D69246A8E1F00BDFCBD /* GMSPlacesErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D81246A8E1F00BDFCBD /* GMSAutocompleteFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D6A246A8E1F00BDFCBD /* GMSAutocompleteFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D82246A8E1F00BDFCBD /* GMSAutocompleteSessionToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D6B246A8E1F00BDFCBD /* GMSAutocompleteSessionToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D83246A8E1F00BDFCBD /* GMSAddressComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D6C246A8E1F00BDFCBD /* GMSAddressComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D84246A8E1F00BDFCBD /* GMSAutocompletePrediction.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D6D246A8E1F00BDFCBD /* GMSAutocompletePrediction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D85246A8E1F00BDFCBD /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D6E246A8E1F00BDFCBD /* GMSAutocompleteBoundsMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D86246A8E1F00BDFCBD /* GMSPlace.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D6F246A8E1F00BDFCBD /* GMSPlace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D87246A8E1F00BDFCBD /* GMSPlaceLocationOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D70246A8E1F00BDFCBD /* GMSPlaceLocationOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D88246A8E1F00BDFCBD /* GMSPlusCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D71246A8E1F00BDFCBD /* GMSPlusCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D89246A8E1F00BDFCBD /* GooglePlaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D72246A8E1F00BDFCBD /* GooglePlaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D8A246A8E1F00BDFCBD /* GMSAutocompleteMatchFragment.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D73246A8E1F00BDFCBD /* GMSAutocompleteMatchFragment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D8B246A8E1F00BDFCBD /* GMSAutocompleteFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D74246A8E1F00BDFCBD /* GMSAutocompleteFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D8C246A8E1F00BDFCBD /* GMSPlaceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D75246A8E1F00BDFCBD /* GMSPlaceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D8D246A8E1F00BDFCBD /* GMSPlaceLikelihood.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D76246A8E1F00BDFCBD /* GMSPlaceLikelihood.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D8E246A8E1F00BDFCBD /* GMSAutocompleteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D77246A8E1F00BDFCBD /* GMSAutocompleteViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D8F246A8E1F00BDFCBD /* GMSAutocompleteTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D78246A8E1F00BDFCBD /* GMSAutocompleteTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D90246A8E1F00BDFCBD /* GMSOpeningHours.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D79246A8E1F00BDFCBD /* GMSOpeningHours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D91246A8E1F00BDFCBD /* GMSAutocompleteResultsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D7A246A8E1F00BDFCBD /* GMSAutocompleteResultsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB4D92246A8E1F00BDFCBD /* GMSPlaceFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB4D7B246A8E1F00BDFCBD /* GMSPlaceFieldMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D552E4422378AC500E9367F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B91D9D85E5003E7610 /* CoreText.framework */; };
 		6D552E4622378AC500E9367F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D552E4522378AC500E9367F /* CoreFoundation.framework */; };
 		6D552E4722378B4000E9367F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B91D9D85E5003E7610 /* CoreText.framework */; };
 		6D552E7122378D6E00E9367F /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D552E5522378D6D00E9367F /* GooglePlaces */; };
-		6D552E7222378D6E00E9367F /* GMSAutocompleteTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E5922378D6D00E9367F /* GMSAutocompleteTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7322378D6E00E9367F /* GMSPlacePhotoMetadataList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E5A22378D6D00E9367F /* GMSPlacePhotoMetadataList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7422378D6E00E9367F /* GMSPlaceLikelihoodList.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E5B22378D6D00E9367F /* GMSPlaceLikelihoodList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7522378D6E00E9367F /* GMSAddressComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E5C22378D6D00E9367F /* GMSAddressComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7622378D6E00E9367F /* GMSAutocompleteFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E5D22378D6D00E9367F /* GMSAutocompleteFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7722378D6E00E9367F /* GMSPlaceLikelihood.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E5E22378D6D00E9367F /* GMSPlaceLikelihood.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7822378D6E00E9367F /* GMSOpeningHours.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E5F22378D6D00E9367F /* GMSOpeningHours.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7922378D6E00E9367F /* GMSAutocompleteFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6022378D6D00E9367F /* GMSAutocompleteFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7A22378D6E00E9367F /* GMSAutocompleteMatchFragment.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6122378D6D00E9367F /* GMSAutocompleteMatchFragment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7B22378D6E00E9367F /* GMSPlacePhotoMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6222378D6D00E9367F /* GMSPlacePhotoMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7C22378D6E00E9367F /* GMSPlacesClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6322378D6D00E9367F /* GMSPlacesClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7D22378D6E00E9367F /* GMSPlaceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6422378D6D00E9367F /* GMSPlaceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7E22378D6E00E9367F /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6522378D6D00E9367F /* GMSAutocompleteBoundsMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E7F22378D6E00E9367F /* GMSPlace.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6622378D6D00E9367F /* GMSPlace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8022378D6E00E9367F /* GMSPlusCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6722378D6D00E9367F /* GMSPlusCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8122378D6E00E9367F /* GMSPlaceFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6822378D6D00E9367F /* GMSPlaceFieldMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8222378D6E00E9367F /* GooglePlaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6922378D6D00E9367F /* GooglePlaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8322378D6E00E9367F /* GMSAutocompleteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6A22378D6D00E9367F /* GMSAutocompleteViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8422378D6E00E9367F /* GMSAutocompletePrediction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6B22378D6D00E9367F /* GMSAutocompletePrediction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8522378D6E00E9367F /* GMSPlacesErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6C22378D6D00E9367F /* GMSPlacesErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8622378D6E00E9367F /* GMSAutocompleteResultsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6D22378D6D00E9367F /* GMSAutocompleteResultsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D552E8722378D6E00E9367F /* GMSAutocompleteSessionToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D552E6E22378D6D00E9367F /* GMSAutocompleteSessionToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D552E8822378D6E00E9367F /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D552E7022378D6D00E9367F /* GooglePlaces.bundle */; };
 		6D552E8922378DD900E9367F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D552E4522378AC500E9367F /* CoreFoundation.framework */; };
 		6D552E8A22378DD900E9367F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE039B1D9D84D1003E7610 /* CoreLocation.framework */; };
@@ -142,89 +146,91 @@
 		B9EE04A21D9D9480003E7610 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE036D1D9D8429003E7610 /* GoogleMaps.framework */; };
 		B9EE04A41D9D94A0003E7610 /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04A31D9D94A0003E7610 /* GoogleMapsM4B */; };
 		B9EE04A51D9D94CE003E7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE039D1D9D84D8003E7610 /* Foundation.framework */; };
-		CDCD78F323980D8B007E8167 /* GMSStrokeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCD78F223980D8B007E8167 /* GMSStrokeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1933E4A22497B2D00BBF8E4 /* GMSPolygonLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E1933E4922497B2D00BBF8E4 /* GMSPolygonLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		15B54F7F21417C7000A99A88 /* GMSPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaView.h; sourceTree = "<group>"; };
-		15B54F8021417C7000A99A88 /* GMSIndoorBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorBuilding.h; sourceTree = "<group>"; };
-		15B54F8121417C7000A99A88 /* GMSMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMarker.h; sourceTree = "<group>"; };
-		15B54F8221417C7000A99A88 /* GMSMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMapView.h; sourceTree = "<group>"; };
-		15B54F8321417C7000A99A88 /* GMSServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSServices.h; sourceTree = "<group>"; };
-		15B54F8421417C7000A99A88 /* GMSIndoorDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorDisplay.h; sourceTree = "<group>"; };
-		15B54F8521417C7000A99A88 /* GMSMarkerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMarkerLayer.h; sourceTree = "<group>"; };
-		15B54F8621417C7000A99A88 /* GMSOverlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOverlayLayer.h; sourceTree = "<group>"; };
-		15B54F8721417C7000A99A88 /* GMSCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCameraUpdate.h; sourceTree = "<group>"; };
-		15B54F8821417C7000A99A88 /* GMSMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMapLayer.h; sourceTree = "<group>"; };
-		15B54F8921417C7000A99A88 /* GMSPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolyline.h; sourceTree = "<group>"; };
-		15B54F8A21417C7000A99A88 /* GMSMapView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSMapView+Animation.h"; sourceTree = "<group>"; };
-		15B54F8B21417C7000A99A88 /* GMSOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOrientation.h; sourceTree = "<group>"; };
-		15B54F8C21417C7000A99A88 /* GMSPanoramaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaService.h; sourceTree = "<group>"; };
-		15B54F8D21417C7000A99A88 /* GMSMapStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMapStyle.h; sourceTree = "<group>"; };
-		15B54F8E21417C7000A99A88 /* GMSMutablePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMutablePath.h; sourceTree = "<group>"; };
-		15B54F8F21417C7000A99A88 /* GMSPanorama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanorama.h; sourceTree = "<group>"; };
-		15B54F9021417C7000A99A88 /* GMSIndoorLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorLevel.h; sourceTree = "<group>"; };
-		15B54F9121417C7000A99A88 /* GMSCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCircle.h; sourceTree = "<group>"; };
-		15B54F9221417C7000A99A88 /* GMSCoordinateBounds+GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSCoordinateBounds+GoogleMaps.h"; sourceTree = "<group>"; };
-		15B54F9321417C7000A99A88 /* GMSPanoramaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaSource.h; sourceTree = "<group>"; };
-		15B54F9421417C7000A99A88 /* GMSTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSTileLayer.h; sourceTree = "<group>"; };
-		15B54F9521417C7000A99A88 /* GMSPanoramaCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaCameraUpdate.h; sourceTree = "<group>"; };
-		15B54F9621417C7000A99A88 /* GMSPanoramaCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaCamera.h; sourceTree = "<group>"; };
-		15B54F9721417C7000A99A88 /* GMSCameraPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCameraPosition.h; sourceTree = "<group>"; };
-		15B54F9821417C7000A99A88 /* GMSAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAddress.h; sourceTree = "<group>"; };
-		15B54F9921417C7000A99A88 /* GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMaps.h; sourceTree = "<group>"; };
-		15B54F9A21417C7000A99A88 /* GMSOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOverlay.h; sourceTree = "<group>"; };
-		15B54F9B21417C7000A99A88 /* GMSSyncTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSSyncTileLayer.h; sourceTree = "<group>"; };
-		15B54F9C21417C7000A99A88 /* GMSGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeometryUtils.h; sourceTree = "<group>"; };
-		15B54F9D21417C7000A99A88 /* GMSPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPath.h; sourceTree = "<group>"; };
-		15B54F9E21417C7000A99A88 /* GMSURLTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSURLTileLayer.h; sourceTree = "<group>"; };
-		15B54F9F21417C7000A99A88 /* GMSGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeocoder.h; sourceTree = "<group>"; };
-		15B54FA021417C7000A99A88 /* GMSPanoramaLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaLink.h; sourceTree = "<group>"; };
-		15B54FA121417C7000A99A88 /* GMSGroundOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGroundOverlay.h; sourceTree = "<group>"; };
-		15B54FA221417C7000A99A88 /* GMSCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCALayer.h; sourceTree = "<group>"; };
-		15B54FA321417C7000A99A88 /* GMSPanoramaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaLayer.h; sourceTree = "<group>"; };
-		15B54FA421417C7000A99A88 /* GMSPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolygon.h; sourceTree = "<group>"; };
-		15B54FA521417C7000A99A88 /* GMSProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSProjection.h; sourceTree = "<group>"; };
-		15B54FA621417C7000A99A88 /* GMSUISettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSUISettings.h; sourceTree = "<group>"; };
 		15B54FD021417C8600A99A88 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		15B54FD221417C8F00A99A88 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
-		15B54FD621417D3D00A99A88 /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
-		15B54FD721417D3D00A99A88 /* GoogleMapsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsBase.h; sourceTree = "<group>"; };
-		15B54FD821417D3D00A99A88 /* GMSCompatabilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCompatabilityMacros.h; sourceTree = "<group>"; };
-		15B54FD921417D3D00A99A88 /* GMSCoordinateBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCoordinateBounds.h; sourceTree = "<group>"; };
 		15B54FDB21417D3D00A99A88 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		15B54FE121417D5E00A99A88 /* GoogleMapsBase */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GoogleMapsBase; sourceTree = "<group>"; };
 		15B54FE4214183F200A99A88 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		15B54FE6214184F000A99A88 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		15B54FE8214184F000A99A88 /* GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMaps.h; sourceTree = "<group>"; };
+		52BB4D07246A8DBF00BDFCBD /* GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMaps.h; sourceTree = "<group>"; };
+		52BB4D08246A8DBF00BDFCBD /* GMSCameraPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCameraPosition.h; sourceTree = "<group>"; };
+		52BB4D09246A8DBF00BDFCBD /* GMSMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMapView.h; sourceTree = "<group>"; };
+		52BB4D0A246A8DBF00BDFCBD /* GMSCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCALayer.h; sourceTree = "<group>"; };
+		52BB4D0B246A8DBF00BDFCBD /* GMSMarkerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMarkerLayer.h; sourceTree = "<group>"; };
+		52BB4D0C246A8DBF00BDFCBD /* GMSOverlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOverlayLayer.h; sourceTree = "<group>"; };
+		52BB4D0D246A8DBF00BDFCBD /* GMSPanoramaCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaCameraUpdate.h; sourceTree = "<group>"; };
+		52BB4D0E246A8DBF00BDFCBD /* GMSPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPath.h; sourceTree = "<group>"; };
+		52BB4D0F246A8DBF00BDFCBD /* GMSPolygonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolygonLayer.h; sourceTree = "<group>"; };
+		52BB4D10246A8DBF00BDFCBD /* GMSPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolyline.h; sourceTree = "<group>"; };
+		52BB4D11246A8DBF00BDFCBD /* GMSStyleSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSStyleSpan.h; sourceTree = "<group>"; };
+		52BB4D12246A8DBF00BDFCBD /* GMSIndoorBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorBuilding.h; sourceTree = "<group>"; };
+		52BB4D13246A8DBF00BDFCBD /* GMSAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAddress.h; sourceTree = "<group>"; };
+		52BB4D14246A8DBF00BDFCBD /* GMSSyncTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSSyncTileLayer.h; sourceTree = "<group>"; };
+		52BB4D15246A8DBF00BDFCBD /* GMSUISettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSUISettings.h; sourceTree = "<group>"; };
+		52BB4D16246A8DBF00BDFCBD /* GMSIndoorDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorDisplay.h; sourceTree = "<group>"; };
+		52BB4D17246A8DBF00BDFCBD /* GMSPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolygon.h; sourceTree = "<group>"; };
+		52BB4D18246A8DC000BDFCBD /* GMSProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSProjection.h; sourceTree = "<group>"; };
+		52BB4D19246A8DC000BDFCBD /* GMSCoordinateBounds+GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSCoordinateBounds+GoogleMaps.h"; sourceTree = "<group>"; };
+		52BB4D1A246A8DC000BDFCBD /* GMSCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCameraUpdate.h; sourceTree = "<group>"; };
+		52BB4D1B246A8DC000BDFCBD /* GMSURLTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSURLTileLayer.h; sourceTree = "<group>"; };
+		52BB4D1C246A8DC000BDFCBD /* GMSPanoramaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaLayer.h; sourceTree = "<group>"; };
+		52BB4D1D246A8DC000BDFCBD /* GMSGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeometryUtils.h; sourceTree = "<group>"; };
+		52BB4D1E246A8DC000BDFCBD /* GMSStrokeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSStrokeStyle.h; sourceTree = "<group>"; };
+		52BB4D1F246A8DC000BDFCBD /* GMSGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeocoder.h; sourceTree = "<group>"; };
+		52BB4D20246A8DC000BDFCBD /* GMSPanoramaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaService.h; sourceTree = "<group>"; };
+		52BB4D21246A8DC000BDFCBD /* GMSServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSServices.h; sourceTree = "<group>"; };
+		52BB4D22246A8DC000BDFCBD /* GMSIndoorLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorLevel.h; sourceTree = "<group>"; };
+		52BB4D23246A8DC000BDFCBD /* GMSMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMarker.h; sourceTree = "<group>"; };
+		52BB4D24246A8DC000BDFCBD /* GMSMapStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMapStyle.h; sourceTree = "<group>"; };
+		52BB4D25246A8DC000BDFCBD /* GMSPanoramaCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaCamera.h; sourceTree = "<group>"; };
+		52BB4D26246A8DC000BDFCBD /* GMSPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaView.h; sourceTree = "<group>"; };
+		52BB4D27246A8DC000BDFCBD /* GMSCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCircle.h; sourceTree = "<group>"; };
+		52BB4D28246A8DC000BDFCBD /* GMSPanoramaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaSource.h; sourceTree = "<group>"; };
+		52BB4D29246A8DC000BDFCBD /* GMSGroundOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGroundOverlay.h; sourceTree = "<group>"; };
+		52BB4D2A246A8DC000BDFCBD /* GMSMutablePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMutablePath.h; sourceTree = "<group>"; };
+		52BB4D2B246A8DC000BDFCBD /* GMSOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOrientation.h; sourceTree = "<group>"; };
+		52BB4D2C246A8DC100BDFCBD /* GMSMapView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSMapView+Animation.h"; sourceTree = "<group>"; };
+		52BB4D2D246A8DC100BDFCBD /* GMSTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSTileLayer.h; sourceTree = "<group>"; };
+		52BB4D2E246A8DC100BDFCBD /* GMSMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSMapLayer.h; sourceTree = "<group>"; };
+		52BB4D2F246A8DC100BDFCBD /* GMSOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOverlay.h; sourceTree = "<group>"; };
+		52BB4D30246A8DC100BDFCBD /* GMSPanoramaLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaLink.h; sourceTree = "<group>"; };
+		52BB4D31246A8DC100BDFCBD /* GMSPanorama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanorama.h; sourceTree = "<group>"; };
+		52BB4D5D246A8DDA00BDFCBD /* GoogleMapsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsBase.h; sourceTree = "<group>"; };
+		52BB4D5E246A8DDA00BDFCBD /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
+		52BB4D5F246A8DDA00BDFCBD /* GMSCoordinateBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCoordinateBounds.h; sourceTree = "<group>"; };
+		52BB4D60246A8DDA00BDFCBD /* GMSCompatabilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCompatabilityMacros.h; sourceTree = "<group>"; };
+		52BB4D65246A8E1F00BDFCBD /* GMSPlaceLikelihoodList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceLikelihoodList.h; sourceTree = "<group>"; };
+		52BB4D66246A8E1F00BDFCBD /* GMSPlacePhotoMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePhotoMetadata.h; sourceTree = "<group>"; };
+		52BB4D67246A8E1F00BDFCBD /* GMSPlacePhotoMetadataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePhotoMetadataList.h; sourceTree = "<group>"; };
+		52BB4D68246A8E1F00BDFCBD /* GMSPlacesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacesClient.h; sourceTree = "<group>"; };
+		52BB4D69246A8E1F00BDFCBD /* GMSPlacesErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacesErrors.h; sourceTree = "<group>"; };
+		52BB4D6A246A8E1F00BDFCBD /* GMSAutocompleteFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteFetcher.h; sourceTree = "<group>"; };
+		52BB4D6B246A8E1F00BDFCBD /* GMSAutocompleteSessionToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteSessionToken.h; sourceTree = "<group>"; };
+		52BB4D6C246A8E1F00BDFCBD /* GMSAddressComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAddressComponent.h; sourceTree = "<group>"; };
+		52BB4D6D246A8E1F00BDFCBD /* GMSAutocompletePrediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompletePrediction.h; sourceTree = "<group>"; };
+		52BB4D6E246A8E1F00BDFCBD /* GMSAutocompleteBoundsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteBoundsMode.h; sourceTree = "<group>"; };
+		52BB4D6F246A8E1F00BDFCBD /* GMSPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlace.h; sourceTree = "<group>"; };
+		52BB4D70246A8E1F00BDFCBD /* GMSPlaceLocationOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceLocationOptions.h; sourceTree = "<group>"; };
+		52BB4D71246A8E1F00BDFCBD /* GMSPlusCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlusCode.h; sourceTree = "<group>"; };
+		52BB4D72246A8E1F00BDFCBD /* GooglePlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlaces.h; sourceTree = "<group>"; };
+		52BB4D73246A8E1F00BDFCBD /* GMSAutocompleteMatchFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteMatchFragment.h; sourceTree = "<group>"; };
+		52BB4D74246A8E1F00BDFCBD /* GMSAutocompleteFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteFilter.h; sourceTree = "<group>"; };
+		52BB4D75246A8E1F00BDFCBD /* GMSPlaceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceTypes.h; sourceTree = "<group>"; };
+		52BB4D76246A8E1F00BDFCBD /* GMSPlaceLikelihood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceLikelihood.h; sourceTree = "<group>"; };
+		52BB4D77246A8E1F00BDFCBD /* GMSAutocompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteViewController.h; sourceTree = "<group>"; };
+		52BB4D78246A8E1F00BDFCBD /* GMSAutocompleteTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteTableDataSource.h; sourceTree = "<group>"; };
+		52BB4D79246A8E1F00BDFCBD /* GMSOpeningHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOpeningHours.h; sourceTree = "<group>"; };
+		52BB4D7A246A8E1F00BDFCBD /* GMSAutocompleteResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteResultsViewController.h; sourceTree = "<group>"; };
+		52BB4D7B246A8E1F00BDFCBD /* GMSPlaceFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceFieldMask.h; sourceTree = "<group>"; };
 		6D552E4522378AC500E9367F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		6D552E4D22378D2500E9367F /* GooglePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D552E5022378D2500E9367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D552E5522378D6D00E9367F /* GooglePlaces */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GooglePlaces; sourceTree = "<group>"; };
 		6D552E5722378D6D00E9367F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		6D552E5922378D6D00E9367F /* GMSAutocompleteTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteTableDataSource.h; sourceTree = "<group>"; };
-		6D552E5A22378D6D00E9367F /* GMSPlacePhotoMetadataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePhotoMetadataList.h; sourceTree = "<group>"; };
-		6D552E5B22378D6D00E9367F /* GMSPlaceLikelihoodList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceLikelihoodList.h; sourceTree = "<group>"; };
-		6D552E5C22378D6D00E9367F /* GMSAddressComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAddressComponent.h; sourceTree = "<group>"; };
-		6D552E5D22378D6D00E9367F /* GMSAutocompleteFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteFilter.h; sourceTree = "<group>"; };
-		6D552E5E22378D6D00E9367F /* GMSPlaceLikelihood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceLikelihood.h; sourceTree = "<group>"; };
-		6D552E5F22378D6D00E9367F /* GMSOpeningHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOpeningHours.h; sourceTree = "<group>"; };
-		6D552E6022378D6D00E9367F /* GMSAutocompleteFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteFetcher.h; sourceTree = "<group>"; };
-		6D552E6122378D6D00E9367F /* GMSAutocompleteMatchFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteMatchFragment.h; sourceTree = "<group>"; };
-		6D552E6222378D6D00E9367F /* GMSPlacePhotoMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePhotoMetadata.h; sourceTree = "<group>"; };
-		6D552E6322378D6D00E9367F /* GMSPlacesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacesClient.h; sourceTree = "<group>"; };
-		6D552E6422378D6D00E9367F /* GMSPlaceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceTypes.h; sourceTree = "<group>"; };
-		6D552E6522378D6D00E9367F /* GMSAutocompleteBoundsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteBoundsMode.h; sourceTree = "<group>"; };
-		6D552E6622378D6D00E9367F /* GMSPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlace.h; sourceTree = "<group>"; };
-		6D552E6722378D6D00E9367F /* GMSPlusCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlusCode.h; sourceTree = "<group>"; };
-		6D552E6822378D6D00E9367F /* GMSPlaceFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceFieldMask.h; sourceTree = "<group>"; };
-		6D552E6922378D6D00E9367F /* GooglePlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlaces.h; sourceTree = "<group>"; };
-		6D552E6A22378D6D00E9367F /* GMSAutocompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteViewController.h; sourceTree = "<group>"; };
-		6D552E6B22378D6D00E9367F /* GMSAutocompletePrediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompletePrediction.h; sourceTree = "<group>"; };
-		6D552E6C22378D6D00E9367F /* GMSPlacesErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacesErrors.h; sourceTree = "<group>"; };
-		6D552E6D22378D6D00E9367F /* GMSAutocompleteResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteResultsViewController.h; sourceTree = "<group>"; };
-		6D552E6E22378D6D00E9367F /* GMSAutocompleteSessionToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteSessionToken.h; sourceTree = "<group>"; };
 		6D552E7022378D6D00E9367F /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
 		A72C2FA91F6A88100076B723 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A76265072037689800DD730E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -254,8 +260,6 @@
 		B9EE049A1D9D9478003E7610 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapsM4B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE049D1D9D9478003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9EE04A31D9D94A0003E7610 /* GoogleMapsM4B */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GoogleMapsM4B; sourceTree = "<group>"; };
-		CDCD78F223980D8B007E8167 /* GMSStrokeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSStrokeStyle.h; sourceTree = "<group>"; };
-		E1933E4922497B2D00BBF8E4 /* GMSPolygonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPolygonLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -366,48 +370,49 @@
 		15B54F7E21417C7000A99A88 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				CDCD78F223980D8B007E8167 /* GMSStrokeStyle.h */,
-				E1933E4922497B2D00BBF8E4 /* GMSPolygonLayer.h */,
-				15B54F7F21417C7000A99A88 /* GMSPanoramaView.h */,
-				15B54F8021417C7000A99A88 /* GMSIndoorBuilding.h */,
-				15B54F8121417C7000A99A88 /* GMSMarker.h */,
-				15B54F8221417C7000A99A88 /* GMSMapView.h */,
-				15B54F8321417C7000A99A88 /* GMSServices.h */,
-				15B54F8421417C7000A99A88 /* GMSIndoorDisplay.h */,
-				15B54F8521417C7000A99A88 /* GMSMarkerLayer.h */,
-				15B54F8621417C7000A99A88 /* GMSOverlayLayer.h */,
-				15B54F8721417C7000A99A88 /* GMSCameraUpdate.h */,
-				15B54F8821417C7000A99A88 /* GMSMapLayer.h */,
-				15B54F8921417C7000A99A88 /* GMSPolyline.h */,
-				15B54F8A21417C7000A99A88 /* GMSMapView+Animation.h */,
-				15B54F8B21417C7000A99A88 /* GMSOrientation.h */,
-				15B54F8C21417C7000A99A88 /* GMSPanoramaService.h */,
-				15B54F8D21417C7000A99A88 /* GMSMapStyle.h */,
-				15B54F8E21417C7000A99A88 /* GMSMutablePath.h */,
-				15B54F8F21417C7000A99A88 /* GMSPanorama.h */,
-				15B54F9021417C7000A99A88 /* GMSIndoorLevel.h */,
-				15B54F9121417C7000A99A88 /* GMSCircle.h */,
-				15B54F9221417C7000A99A88 /* GMSCoordinateBounds+GoogleMaps.h */,
-				15B54F9321417C7000A99A88 /* GMSPanoramaSource.h */,
-				15B54F9421417C7000A99A88 /* GMSTileLayer.h */,
-				15B54F9521417C7000A99A88 /* GMSPanoramaCameraUpdate.h */,
-				15B54F9621417C7000A99A88 /* GMSPanoramaCamera.h */,
-				15B54F9721417C7000A99A88 /* GMSCameraPosition.h */,
-				15B54F9821417C7000A99A88 /* GMSAddress.h */,
-				15B54F9921417C7000A99A88 /* GoogleMaps.h */,
-				15B54F9A21417C7000A99A88 /* GMSOverlay.h */,
-				15B54F9B21417C7000A99A88 /* GMSSyncTileLayer.h */,
-				15B54F9C21417C7000A99A88 /* GMSGeometryUtils.h */,
-				15B54F9D21417C7000A99A88 /* GMSPath.h */,
-				15B54F9E21417C7000A99A88 /* GMSURLTileLayer.h */,
-				15B54F9F21417C7000A99A88 /* GMSGeocoder.h */,
-				15B54FA021417C7000A99A88 /* GMSPanoramaLink.h */,
-				15B54FA121417C7000A99A88 /* GMSGroundOverlay.h */,
-				15B54FA221417C7000A99A88 /* GMSCALayer.h */,
-				15B54FA321417C7000A99A88 /* GMSPanoramaLayer.h */,
-				15B54FA421417C7000A99A88 /* GMSPolygon.h */,
-				15B54FA521417C7000A99A88 /* GMSProjection.h */,
-				15B54FA621417C7000A99A88 /* GMSUISettings.h */,
+				52BB4D13246A8DBF00BDFCBD /* GMSAddress.h */,
+				52BB4D0A246A8DBF00BDFCBD /* GMSCALayer.h */,
+				52BB4D08246A8DBF00BDFCBD /* GMSCameraPosition.h */,
+				52BB4D1A246A8DC000BDFCBD /* GMSCameraUpdate.h */,
+				52BB4D27246A8DC000BDFCBD /* GMSCircle.h */,
+				52BB4D19246A8DC000BDFCBD /* GMSCoordinateBounds+GoogleMaps.h */,
+				52BB4D1F246A8DC000BDFCBD /* GMSGeocoder.h */,
+				52BB4D1D246A8DC000BDFCBD /* GMSGeometryUtils.h */,
+				52BB4D29246A8DC000BDFCBD /* GMSGroundOverlay.h */,
+				52BB4D12246A8DBF00BDFCBD /* GMSIndoorBuilding.h */,
+				52BB4D16246A8DBF00BDFCBD /* GMSIndoorDisplay.h */,
+				52BB4D22246A8DC000BDFCBD /* GMSIndoorLevel.h */,
+				52BB4D2E246A8DC100BDFCBD /* GMSMapLayer.h */,
+				52BB4D24246A8DC000BDFCBD /* GMSMapStyle.h */,
+				52BB4D09246A8DBF00BDFCBD /* GMSMapView.h */,
+				52BB4D2C246A8DC100BDFCBD /* GMSMapView+Animation.h */,
+				52BB4D23246A8DC000BDFCBD /* GMSMarker.h */,
+				52BB4D0B246A8DBF00BDFCBD /* GMSMarkerLayer.h */,
+				52BB4D2A246A8DC000BDFCBD /* GMSMutablePath.h */,
+				52BB4D2B246A8DC000BDFCBD /* GMSOrientation.h */,
+				52BB4D2F246A8DC100BDFCBD /* GMSOverlay.h */,
+				52BB4D0C246A8DBF00BDFCBD /* GMSOverlayLayer.h */,
+				52BB4D31246A8DC100BDFCBD /* GMSPanorama.h */,
+				52BB4D25246A8DC000BDFCBD /* GMSPanoramaCamera.h */,
+				52BB4D0D246A8DBF00BDFCBD /* GMSPanoramaCameraUpdate.h */,
+				52BB4D1C246A8DC000BDFCBD /* GMSPanoramaLayer.h */,
+				52BB4D30246A8DC100BDFCBD /* GMSPanoramaLink.h */,
+				52BB4D20246A8DC000BDFCBD /* GMSPanoramaService.h */,
+				52BB4D28246A8DC000BDFCBD /* GMSPanoramaSource.h */,
+				52BB4D26246A8DC000BDFCBD /* GMSPanoramaView.h */,
+				52BB4D0E246A8DBF00BDFCBD /* GMSPath.h */,
+				52BB4D17246A8DBF00BDFCBD /* GMSPolygon.h */,
+				52BB4D0F246A8DBF00BDFCBD /* GMSPolygonLayer.h */,
+				52BB4D10246A8DBF00BDFCBD /* GMSPolyline.h */,
+				52BB4D18246A8DC000BDFCBD /* GMSProjection.h */,
+				52BB4D21246A8DC000BDFCBD /* GMSServices.h */,
+				52BB4D1E246A8DC000BDFCBD /* GMSStrokeStyle.h */,
+				52BB4D11246A8DBF00BDFCBD /* GMSStyleSpan.h */,
+				52BB4D14246A8DBF00BDFCBD /* GMSSyncTileLayer.h */,
+				52BB4D2D246A8DC100BDFCBD /* GMSTileLayer.h */,
+				52BB4D15246A8DBF00BDFCBD /* GMSUISettings.h */,
+				52BB4D1B246A8DC000BDFCBD /* GMSURLTileLayer.h */,
+				52BB4D07246A8DBF00BDFCBD /* GoogleMaps.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -431,10 +436,10 @@
 		15B54FD521417D3D00A99A88 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				15B54FD621417D3D00A99A88 /* GMSDeprecationMacros.h */,
-				15B54FD721417D3D00A99A88 /* GoogleMapsBase.h */,
-				15B54FD821417D3D00A99A88 /* GMSCompatabilityMacros.h */,
-				15B54FD921417D3D00A99A88 /* GMSCoordinateBounds.h */,
+				52BB4D60246A8DDA00BDFCBD /* GMSCompatabilityMacros.h */,
+				52BB4D5F246A8DDA00BDFCBD /* GMSCoordinateBounds.h */,
+				52BB4D5E246A8DDA00BDFCBD /* GMSDeprecationMacros.h */,
+				52BB4D5D246A8DDA00BDFCBD /* GoogleMapsBase.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -494,28 +499,29 @@
 		6D552E5822378D6D00E9367F /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				6D552E5922378D6D00E9367F /* GMSAutocompleteTableDataSource.h */,
-				6D552E5A22378D6D00E9367F /* GMSPlacePhotoMetadataList.h */,
-				6D552E5B22378D6D00E9367F /* GMSPlaceLikelihoodList.h */,
-				6D552E5C22378D6D00E9367F /* GMSAddressComponent.h */,
-				6D552E5D22378D6D00E9367F /* GMSAutocompleteFilter.h */,
-				6D552E5E22378D6D00E9367F /* GMSPlaceLikelihood.h */,
-				6D552E5F22378D6D00E9367F /* GMSOpeningHours.h */,
-				6D552E6022378D6D00E9367F /* GMSAutocompleteFetcher.h */,
-				6D552E6122378D6D00E9367F /* GMSAutocompleteMatchFragment.h */,
-				6D552E6222378D6D00E9367F /* GMSPlacePhotoMetadata.h */,
-				6D552E6322378D6D00E9367F /* GMSPlacesClient.h */,
-				6D552E6422378D6D00E9367F /* GMSPlaceTypes.h */,
-				6D552E6522378D6D00E9367F /* GMSAutocompleteBoundsMode.h */,
-				6D552E6622378D6D00E9367F /* GMSPlace.h */,
-				6D552E6722378D6D00E9367F /* GMSPlusCode.h */,
-				6D552E6822378D6D00E9367F /* GMSPlaceFieldMask.h */,
-				6D552E6922378D6D00E9367F /* GooglePlaces.h */,
-				6D552E6A22378D6D00E9367F /* GMSAutocompleteViewController.h */,
-				6D552E6B22378D6D00E9367F /* GMSAutocompletePrediction.h */,
-				6D552E6C22378D6D00E9367F /* GMSPlacesErrors.h */,
-				6D552E6D22378D6D00E9367F /* GMSAutocompleteResultsViewController.h */,
-				6D552E6E22378D6D00E9367F /* GMSAutocompleteSessionToken.h */,
+				52BB4D6C246A8E1F00BDFCBD /* GMSAddressComponent.h */,
+				52BB4D6E246A8E1F00BDFCBD /* GMSAutocompleteBoundsMode.h */,
+				52BB4D6A246A8E1F00BDFCBD /* GMSAutocompleteFetcher.h */,
+				52BB4D74246A8E1F00BDFCBD /* GMSAutocompleteFilter.h */,
+				52BB4D73246A8E1F00BDFCBD /* GMSAutocompleteMatchFragment.h */,
+				52BB4D6D246A8E1F00BDFCBD /* GMSAutocompletePrediction.h */,
+				52BB4D7A246A8E1F00BDFCBD /* GMSAutocompleteResultsViewController.h */,
+				52BB4D6B246A8E1F00BDFCBD /* GMSAutocompleteSessionToken.h */,
+				52BB4D78246A8E1F00BDFCBD /* GMSAutocompleteTableDataSource.h */,
+				52BB4D77246A8E1F00BDFCBD /* GMSAutocompleteViewController.h */,
+				52BB4D79246A8E1F00BDFCBD /* GMSOpeningHours.h */,
+				52BB4D6F246A8E1F00BDFCBD /* GMSPlace.h */,
+				52BB4D7B246A8E1F00BDFCBD /* GMSPlaceFieldMask.h */,
+				52BB4D76246A8E1F00BDFCBD /* GMSPlaceLikelihood.h */,
+				52BB4D65246A8E1F00BDFCBD /* GMSPlaceLikelihoodList.h */,
+				52BB4D70246A8E1F00BDFCBD /* GMSPlaceLocationOptions.h */,
+				52BB4D66246A8E1F00BDFCBD /* GMSPlacePhotoMetadata.h */,
+				52BB4D67246A8E1F00BDFCBD /* GMSPlacePhotoMetadataList.h */,
+				52BB4D68246A8E1F00BDFCBD /* GMSPlacesClient.h */,
+				52BB4D69246A8E1F00BDFCBD /* GMSPlacesErrors.h */,
+				52BB4D75246A8E1F00BDFCBD /* GMSPlaceTypes.h */,
+				52BB4D71246A8E1F00BDFCBD /* GMSPlusCode.h */,
+				52BB4D72246A8E1F00BDFCBD /* GooglePlaces.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -629,28 +635,29 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D552E8622378D6E00E9367F /* GMSAutocompleteResultsViewController.h in Headers */,
-				6D552E7922378D6E00E9367F /* GMSAutocompleteFetcher.h in Headers */,
-				6D552E7A22378D6E00E9367F /* GMSAutocompleteMatchFragment.h in Headers */,
-				6D552E7B22378D6E00E9367F /* GMSPlacePhotoMetadata.h in Headers */,
-				6D552E7322378D6E00E9367F /* GMSPlacePhotoMetadataList.h in Headers */,
-				6D552E7222378D6E00E9367F /* GMSAutocompleteTableDataSource.h in Headers */,
-				6D552E8122378D6E00E9367F /* GMSPlaceFieldMask.h in Headers */,
-				6D552E7C22378D6E00E9367F /* GMSPlacesClient.h in Headers */,
-				6D552E8522378D6E00E9367F /* GMSPlacesErrors.h in Headers */,
-				6D552E8722378D6E00E9367F /* GMSAutocompleteSessionToken.h in Headers */,
-				6D552E8422378D6E00E9367F /* GMSAutocompletePrediction.h in Headers */,
-				6D552E8322378D6E00E9367F /* GMSAutocompleteViewController.h in Headers */,
-				6D552E7822378D6E00E9367F /* GMSOpeningHours.h in Headers */,
-				6D552E8022378D6E00E9367F /* GMSPlusCode.h in Headers */,
-				6D552E7622378D6E00E9367F /* GMSAutocompleteFilter.h in Headers */,
-				6D552E7F22378D6E00E9367F /* GMSPlace.h in Headers */,
-				6D552E7E22378D6E00E9367F /* GMSAutocompleteBoundsMode.h in Headers */,
-				6D552E7422378D6E00E9367F /* GMSPlaceLikelihoodList.h in Headers */,
-				6D552E7722378D6E00E9367F /* GMSPlaceLikelihood.h in Headers */,
-				6D552E7D22378D6E00E9367F /* GMSPlaceTypes.h in Headers */,
-				6D552E7522378D6E00E9367F /* GMSAddressComponent.h in Headers */,
-				6D552E8222378D6E00E9367F /* GooglePlaces.h in Headers */,
+				52BB4D85246A8E1F00BDFCBD /* GMSAutocompleteBoundsMode.h in Headers */,
+				52BB4D81246A8E1F00BDFCBD /* GMSAutocompleteFetcher.h in Headers */,
+				52BB4D90246A8E1F00BDFCBD /* GMSOpeningHours.h in Headers */,
+				52BB4D7D246A8E1F00BDFCBD /* GMSPlacePhotoMetadata.h in Headers */,
+				52BB4D91246A8E1F00BDFCBD /* GMSAutocompleteResultsViewController.h in Headers */,
+				52BB4D7F246A8E1F00BDFCBD /* GMSPlacesClient.h in Headers */,
+				52BB4D8C246A8E1F00BDFCBD /* GMSPlaceTypes.h in Headers */,
+				52BB4D87246A8E1F00BDFCBD /* GMSPlaceLocationOptions.h in Headers */,
+				52BB4D83246A8E1F00BDFCBD /* GMSAddressComponent.h in Headers */,
+				52BB4D80246A8E1F00BDFCBD /* GMSPlacesErrors.h in Headers */,
+				52BB4D7C246A8E1F00BDFCBD /* GMSPlaceLikelihoodList.h in Headers */,
+				52BB4D82246A8E1F00BDFCBD /* GMSAutocompleteSessionToken.h in Headers */,
+				52BB4D7E246A8E1F00BDFCBD /* GMSPlacePhotoMetadataList.h in Headers */,
+				52BB4D8E246A8E1F00BDFCBD /* GMSAutocompleteViewController.h in Headers */,
+				52BB4D86246A8E1F00BDFCBD /* GMSPlace.h in Headers */,
+				52BB4D84246A8E1F00BDFCBD /* GMSAutocompletePrediction.h in Headers */,
+				52BB4D8B246A8E1F00BDFCBD /* GMSAutocompleteFilter.h in Headers */,
+				52BB4D88246A8E1F00BDFCBD /* GMSPlusCode.h in Headers */,
+				52BB4D8F246A8E1F00BDFCBD /* GMSAutocompleteTableDataSource.h in Headers */,
+				52BB4D8A246A8E1F00BDFCBD /* GMSAutocompleteMatchFragment.h in Headers */,
+				52BB4D8D246A8E1F00BDFCBD /* GMSPlaceLikelihood.h in Headers */,
+				52BB4D89246A8E1F00BDFCBD /* GooglePlaces.h in Headers */,
+				52BB4D92246A8E1F00BDFCBD /* GMSPlaceFieldMask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,48 +665,49 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B54FAF21417C7000A99A88 /* GMSCameraUpdate.h in Headers */,
-				15B54FCD21417C7000A99A88 /* GMSProjection.h in Headers */,
-				15B54FB721417C7000A99A88 /* GMSPanorama.h in Headers */,
-				15B54FB321417C7000A99A88 /* GMSOrientation.h in Headers */,
-				15B54FAB21417C7000A99A88 /* GMSServices.h in Headers */,
-				15B54FC021417C7000A99A88 /* GMSAddress.h in Headers */,
-				15B54FAC21417C7000A99A88 /* GMSIndoorDisplay.h in Headers */,
-				15B54FAA21417C7000A99A88 /* GMSMapView.h in Headers */,
-				15B54FBF21417C7000A99A88 /* GMSCameraPosition.h in Headers */,
-				15B54FCC21417C7000A99A88 /* GMSPolygon.h in Headers */,
-				15B54FCA21417C7000A99A88 /* GMSCALayer.h in Headers */,
-				15B54FAE21417C7000A99A88 /* GMSOverlayLayer.h in Headers */,
-				15B54FCE21417C7000A99A88 /* GMSUISettings.h in Headers */,
-				15B54FA721417C7000A99A88 /* GMSPanoramaView.h in Headers */,
-				15B54FC221417C7000A99A88 /* GMSOverlay.h in Headers */,
-				15B54FBA21417C7000A99A88 /* GMSCoordinateBounds+GoogleMaps.h in Headers */,
-				15B54FC921417C7000A99A88 /* GMSGroundOverlay.h in Headers */,
-				15B54FB221417C7000A99A88 /* GMSMapView+Animation.h in Headers */,
-				15B54FAD21417C7000A99A88 /* GMSMarkerLayer.h in Headers */,
-				15B54FB921417C7000A99A88 /* GMSCircle.h in Headers */,
-				15B54FB521417C7000A99A88 /* GMSMapStyle.h in Headers */,
-				15B54FB421417C7000A99A88 /* GMSPanoramaService.h in Headers */,
-				15B54FC821417C7000A99A88 /* GMSPanoramaLink.h in Headers */,
-				15B54FB621417C7000A99A88 /* GMSMutablePath.h in Headers */,
-				15B54FA821417C7000A99A88 /* GMSIndoorBuilding.h in Headers */,
-				15B54FC521417C7000A99A88 /* GMSPath.h in Headers */,
-				15B54FC721417C7000A99A88 /* GMSGeocoder.h in Headers */,
-				15B54FA921417C7000A99A88 /* GMSMarker.h in Headers */,
-				15B54FC621417C7000A99A88 /* GMSURLTileLayer.h in Headers */,
-				15B54FBD21417C7000A99A88 /* GMSPanoramaCameraUpdate.h in Headers */,
-				15B54FB821417C7000A99A88 /* GMSIndoorLevel.h in Headers */,
-				15B54FBB21417C7000A99A88 /* GMSPanoramaSource.h in Headers */,
-				15B54FC321417C7000A99A88 /* GMSSyncTileLayer.h in Headers */,
-				15B54FBC21417C7000A99A88 /* GMSTileLayer.h in Headers */,
-				15B54FC421417C7000A99A88 /* GMSGeometryUtils.h in Headers */,
-				15B54FCB21417C7000A99A88 /* GMSPanoramaLayer.h in Headers */,
-				15B54FC121417C7000A99A88 /* GoogleMaps.h in Headers */,
-				15B54FBE21417C7000A99A88 /* GMSPanoramaCamera.h in Headers */,
-				15B54FB121417C7000A99A88 /* GMSPolyline.h in Headers */,
-				E1933E4A22497B2D00BBF8E4 /* GMSPolygonLayer.h in Headers */,
-				15B54FB021417C7000A99A88 /* GMSMapLayer.h in Headers */,
-				CDCD78F323980D8B007E8167 /* GMSStrokeStyle.h in Headers */,
+				52BB4D41246A8DC100BDFCBD /* GMSIndoorDisplay.h in Headers */,
+				52BB4D33246A8DC100BDFCBD /* GMSCameraPosition.h in Headers */,
+				52BB4D50246A8DC100BDFCBD /* GMSPanoramaCamera.h in Headers */,
+				52BB4D5C246A8DC100BDFCBD /* GMSPanorama.h in Headers */,
+				52BB4D5B246A8DC100BDFCBD /* GMSPanoramaLink.h in Headers */,
+				52BB4D48246A8DC100BDFCBD /* GMSGeometryUtils.h in Headers */,
+				52BB4D53246A8DC100BDFCBD /* GMSPanoramaSource.h in Headers */,
+				52BB4D54246A8DC100BDFCBD /* GMSGroundOverlay.h in Headers */,
+				52BB4D4E246A8DC100BDFCBD /* GMSMarker.h in Headers */,
+				52BB4D3D246A8DC100BDFCBD /* GMSIndoorBuilding.h in Headers */,
+				52BB4D34246A8DC100BDFCBD /* GMSMapView.h in Headers */,
+				52BB4D44246A8DC100BDFCBD /* GMSCoordinateBounds+GoogleMaps.h in Headers */,
+				52BB4D49246A8DC100BDFCBD /* GMSStrokeStyle.h in Headers */,
+				52BB4D3B246A8DC100BDFCBD /* GMSPolyline.h in Headers */,
+				52BB4D43246A8DC100BDFCBD /* GMSProjection.h in Headers */,
+				52BB4D4C246A8DC100BDFCBD /* GMSServices.h in Headers */,
+				52BB4D35246A8DC100BDFCBD /* GMSCALayer.h in Headers */,
+				52BB4D39246A8DC100BDFCBD /* GMSPath.h in Headers */,
+				52BB4D3C246A8DC100BDFCBD /* GMSStyleSpan.h in Headers */,
+				52BB4D45246A8DC100BDFCBD /* GMSCameraUpdate.h in Headers */,
+				52BB4D3A246A8DC100BDFCBD /* GMSPolygonLayer.h in Headers */,
+				52BB4D46246A8DC100BDFCBD /* GMSURLTileLayer.h in Headers */,
+				52BB4D42246A8DC100BDFCBD /* GMSPolygon.h in Headers */,
+				52BB4D37246A8DC100BDFCBD /* GMSOverlayLayer.h in Headers */,
+				52BB4D32246A8DC100BDFCBD /* GoogleMaps.h in Headers */,
+				52BB4D3E246A8DC100BDFCBD /* GMSAddress.h in Headers */,
+				52BB4D4F246A8DC100BDFCBD /* GMSMapStyle.h in Headers */,
+				52BB4D4A246A8DC100BDFCBD /* GMSGeocoder.h in Headers */,
+				52BB4D52246A8DC100BDFCBD /* GMSCircle.h in Headers */,
+				52BB4D51246A8DC100BDFCBD /* GMSPanoramaView.h in Headers */,
+				52BB4D3F246A8DC100BDFCBD /* GMSSyncTileLayer.h in Headers */,
+				52BB4D59246A8DC100BDFCBD /* GMSMapLayer.h in Headers */,
+				52BB4D58246A8DC100BDFCBD /* GMSTileLayer.h in Headers */,
+				52BB4D57246A8DC100BDFCBD /* GMSMapView+Animation.h in Headers */,
+				52BB4D4B246A8DC100BDFCBD /* GMSPanoramaService.h in Headers */,
+				52BB4D38246A8DC100BDFCBD /* GMSPanoramaCameraUpdate.h in Headers */,
+				52BB4D56246A8DC100BDFCBD /* GMSOrientation.h in Headers */,
+				52BB4D4D246A8DC100BDFCBD /* GMSIndoorLevel.h in Headers */,
+				52BB4D55246A8DC100BDFCBD /* GMSMutablePath.h in Headers */,
+				52BB4D40246A8DC100BDFCBD /* GMSUISettings.h in Headers */,
+				52BB4D5A246A8DC100BDFCBD /* GMSOverlay.h in Headers */,
+				52BB4D36246A8DC100BDFCBD /* GMSMarkerLayer.h in Headers */,
+				52BB4D47246A8DC100BDFCBD /* GMSPanoramaLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,10 +715,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B54FDD21417D3D00A99A88 /* GMSDeprecationMacros.h in Headers */,
-				15B54FDE21417D3D00A99A88 /* GoogleMapsBase.h in Headers */,
-				15B54FE021417D3D00A99A88 /* GMSCoordinateBounds.h in Headers */,
-				15B54FDF21417D3D00A99A88 /* GMSCompatabilityMacros.h in Headers */,
+				52BB4D64246A8DDA00BDFCBD /* GMSCompatabilityMacros.h in Headers */,
+				52BB4D62246A8DDA00BDFCBD /* GMSDeprecationMacros.h in Headers */,
+				52BB4D63246A8DDA00BDFCBD /* GMSCoordinateBounds.h in Headers */,
+				52BB4D61246A8DDA00BDFCBD /* GoogleMapsBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
